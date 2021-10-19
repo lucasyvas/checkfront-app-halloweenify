@@ -136,6 +136,6 @@ function apiUrlFactory(company: string) {
 
 function getRandomHalloweenCandy() {
   return HALLOWEEN_CANDIES[
-    Math.floor(Math.random() * (HALLOWEEN_CANDIES.length + 1))
+    Math.floor(Math.random() * HALLOWEEN_CANDIES.length)
   ];
 }
